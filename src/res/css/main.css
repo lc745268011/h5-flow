@@ -1,0 +1,62 @@
+.section{margin: 0.44rem 0.64rem 0 }
+.section .title{text-align: center;position: relative}
+.section .title:before{
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    width: 1.3rem ;
+    height: 1px;
+    left: 0;
+    background: #d6d6d6;
+    content: '';
+}
+.section .title:after{
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    width: 1.3rem ;
+    height: 1px;
+    right: 0;
+    background: #d6d6d6;
+    content: '';
+}
+.section .title .name{margin-left:0.34rem;font-size: 0.24rem}
+.section .title .icon{height: 0.26rem;position: absolute;top: 50%;transform: translateY(-50%)}
+.section .product li{margin-top: 0.3rem;width: 3rem ;overflow:hidden;height: 1.6rem;border: 1px solid #7bd7de;border-radius:0.12rem ;margin-right: 0.22rem;box-sizing:border-box;float: left}
+.section .product li:nth-child(2n){margin-right: 0}
+.section .product li .top{height: 1.1rem;background: #f7ffff;width: 100%;text-align: center;padding-top:0.2rem;box-sizing: border-box;}
+.section .product li .top .name{height: 0.44rem;line-height:0.44rem;font-size: 0.4rem;color: #9ce3e7;position: relative}
+.section .product li .top .name:before{
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    width: 0.44rem ;
+    height: 1px;
+    left: 0.26rem;
+    background: #9ce3e7;
+    content: '';
+}
+.section .product li .top .name:after{
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    width: 0.44rem ;
+    height: 1px;
+    right: 0.26rem;
+    background: #9ce3e7;
+    content: '';
+}
+.section .product li .top .price{font-size: 0.24rem;color: #9ce3e7}
+.section .product li .bottom{height: 0.5rem;background: url("../img/bottom.png");width: 100%;color: #fff;font-size: 0.2rem;text-align: center;line-height: 0.5rem}
+.section .product1 li{border: 1px solid #ffa27b}
+.section .product1 li .top{background: #fef6f2}
+.section .product1 li .top .name{color: #ffa27b}
+.section .product1 li .top .price{color: #ffa27b}
+.section .product1 li .bottom{background:url("../img/bottom1.png") }
+.section .product1 li .top .name:before,.section .product1 li .top .name:after{background: #ffa27b}.section .product1 li{border: 1px solid #ffa27b}
+.section .product2 li{border: 1px solid #9ebae9}
+.section .product2 li .top{background: #f3f7ff}
+.section .product2 li .top .name{color: #9ebae9}
+.section .product2 li .top .price{color: #9ebae9}
+.section .product2 li .bottom{background:url("../img/bottom2.png") }
+.section .product2 li .top .name:before,.section .product2 li .top .name:after{background: #9ebae9}
