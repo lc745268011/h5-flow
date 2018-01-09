@@ -1,3 +1,6 @@
+.l{float: left}
+.r{float: right}
+.vCenter{position: absolute;top: 50%;transform: translateY(-50%);-webkit-transform: translateY(-50%);-moz-transform: translateY(-50%);-o-transform: translateY(-50%);-ms-transform: translateY(-50%);}
 .section{margin: 0.44rem 0.64rem 0 }
 .section .title{text-align: center;position: relative}
 .section .title:before{
@@ -60,3 +63,27 @@
 .section .product2 li .top .price{color: #9ebae9}
 .section .product2 li .bottom{background:url("../img/bottom2.png") }
 .section .product2 li .top .name:before,.section .product2 li .top .name:after{background: #9ebae9}
+.frontFlow .top{width: 7.5rem;height: 2.6rem;background: url("../img/banner1.jpg") no-repeat ;background-size: cover;position: relative}
+.frontFlow .top .l{width: 2.05rem;left: 0.3rem;}
+.frontFlow .top .r{width: 4rem;right: 0.3rem;color: #fff}
+.frontFlow .top .topImg{width: 2.05rem;}
+.frontFlow .top .r .title{margin-bottom:0.1rem ;font-size: 0.28rem}
+.frontFlow .top .r{font-size: 0.24rem}
+.frontFlow .warning{width: 7.5rem;height: 0.41rem;background: url("../img/warning.jpg") no-repeat;background-size: cover;position: relative}
+.frontFlow .warning .l{left: 0.3rem;width: 0.3rem}
+.frontFlow .warning .l .horn{width: 0.3rem}
+.frontFlow .warning .content{width: 6.45rem;left: 0.74rem;font-size: 0.24rem;color: #fff}
+.frontFlow .illustrate .title{font-size: 0.32rem;color: #f87350;border-bottom:0.04rem solid #f87350;text-align: center;height: 0.64rem;line-height: 0.64rem}
+.frontFlow .illustrate .content{font-size: 0.24rem;padding: 0.3rem}
+.frontFlow .footer{position: fixed;bottom: 0;width: 100%;height: 1.08rem;padding: 0 0.3rem;border-top: 0.02rem solid #d2d2d2;box-sizing: border-box;background: #fff}
+.frontFlow .footer .order,.frontFlow .footer .share{width: 3.36rem;height: 0.74rem;color: #fff;background: #ff7747;font-size: 0.28rem;text-align: center;line-height: 0.7rem;border-radius: 0.08rem;margin-top: 0.14rem;box-sizing: border-box;border: 0.02rem solid #ff7747}
+.frontFlow .footer .share{margin-right: 0.18rem;border:0.02rem solid #bcbcbc;background: #fff;color: #000}
+.frontFlow .layerContent{text-align: center}
+.frontFlow .formBox{width: 5.7rem;margin: 0 auto}
+.frontFlow .formBox>div{width: 5.7rem;height: 0.6rem;margin-bottom: 0.16rem;border-radius: 0.08rem;overflow: hidden}
+.frontFlow .formBox>div input{width: 5.7rem;height: 0.6rem;border: 0;background: #f5f5f5;font-size: 0.24rem}
+.frontFlow .formBox .tel{width: 5.7rem;height: 0.6rem;padding: 0 0.3rem;box-sizing: border-box}
+.frontFlow .formBox .code{width:3.7rem;height: 0.6rem;padding: 0 0.3rem;box-sizing: border-box}
+.frontFlow .formBox .obtain{width:2rem;height: 0.6rem;padding: 0 0.3rem;box-sizing: border-box;color: #fff;background: #71b457;font-size: 0.24rem;border: 0;text-align: center}
+.frontFlow .orderBtn{width:1.2rem ;height: 0.5rem;line-height: 0.5rem;font-size: 0.24rem;color: #fff;border: 0;background: #e94d40;border-radius: 0.3rem;margin-top: 0.16rem}
+.frontFlow .layui-m-layer1 .layui-m-layercont{padding: 0.3rem;padding-top: 0}

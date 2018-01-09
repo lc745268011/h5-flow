@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+    <!--声明文档的兼容模式-->
+    <meta http-equiv="X-UA-Compatible" content="IE=Edge,chrome=1"/>
+    <meta name="description" content=""/>
+    <meta name="author" content=""/>
+    <!--移动设备-->
+    <meta content="yes" name="apple-mobile-web-app-capable">
+    <meta name="viewport"
+          content="width=device-width,height=device-height,inital-scale=1.0,maximum-scale=1.0,user-scalable=no;">
+    <link rel="stylesheet" href="../res/css/H-ui.reset.css"/>
+    <link rel="stylesheet" href="../res/js/need/layer.css"/>
+    <link rel="stylesheet" href="../res/css/main.css"/>
+    <script src="../res/js/jquery-1.10.2.js"></script>
+    <script src="../res/js/layer.js"></script>
+    <title>前向流量</title>
+</head>
+<body class="frontFlow">
+<div class="top cl">
+    <div class="l vCenter">
+        <img src="../res/img/topImg.png" alt="" class="topImg"/>
+    </div>
+    <div class="r vCenter">
+        <div class="title">20元3GB省内流量加油包</div>
+        <div>包含流量：3G</div>
+        <div>价格：20元</div>
+        <div>已经订购：0次</div>
+        <div>有效期：本月月底</div>
+    </div>
+</div>
+<div class="warning">
+    <div class="l vCenter">
+        <img src="../res/img/horn.png" alt="" class="horn"/>
+    </div>
+    <div class="content vCenter">
+        流量不够用，加个油，立即生效
+    </div>
+</div>
+<div class="illustrate">
+    <div class="title">
+        业务说明
+    </div>
+    <div class="content">
+        国内LTE 4G无线数据上网业务，国内、国际、港澳台语音通话业务，国际、港澳台漫游数据业务、增值业务。
+        （一）移动业务产品：4G全国套餐、4G畅爽冰激凌流量不限量套餐、流量王套餐、校园套餐、本地个性化套餐、日租卡、线上自由组合套餐，还有流量日包、月包、半年包系列的流量包和语音月包等产品。
+        1、4G畅爽冰激凌不限量套餐：率先推出4G不限量套餐，国内语音、流量不限量，以“匠心网络”为用户提供高质量的网络服务，开启“无限流量”新时代。中国联通采用世界先进的LTE-FDD技术，网络覆盖良好率突破97%，峰值下行速率超过300Mbps，高铁实现连续覆盖，为用户提供了更加完善的4G网络，让用户感受语音、视频的极致体验。
+        2、流量日租卡：创新推出流量日租卡套餐，流量按天算，个性化设置1天1元200-500MB流量不等，每天不用流量不花钱，电话接听全国免费，国内语音通话一口价，取消国内长途和漫游费，直接解决流量刚需，助力互联网+，支持双创。
+        3、流量王套餐、校园套餐、本地个性化套餐，面向不同用户群体，套餐设置灵活，满足用户个性化，多样性需求，线上自由组合套餐，用户随心定制，自由设置业务组合和套餐月费。
+        （二）港澳台、国际漫游数据自动升级套餐。
+        根据漫游地不同，数据漫游资费5元/5MB或5元/3MB，每天使用流量25元或55元费用封顶，流量不限量，用户无需订购自动升级，用户无忧漫游，放心使用。
+    </div>
+</div>
+<!--<div class="layerContent">
+    <div style="margin: 0.26rem auto">
+        30元11GB组合流量包资费：30元/次 <br/>
+        有效期：订购成功立即生效 <br/>
+        当月有效，不结转。 <br/>
+    </div>
+    <div class="formBox">
+        <div>
+            <input type="text" class="tel" placeholder="请输入山东联通手机号"/>
+        </div>
+        <div class="cl">
+            <input type="text" class="code l" placeholder="请输入验证码"/>
+            <button class="obtain l">免费获取</button>
+        </div>
+    </div>
+    <div style="color: #5f5f5f;font-size: 0.24rem">验证码有效期10分钟，请勿重复获取</div>
+    <button class="orderBtn">订购</button>
+</div>-->
+
+<div style="height: 1.08rem"></div>
+<div class="footer">
+    <ul class="clearfix">
+        <li class="l share">分享给好友</li>
+        <li class="l order" onclick="order()">立即订购</li>
+    </ul>
+</div>
+<script>
+    //rem
+    (function (doc, win) {
+        var docEl = doc.documentElement,
+                resizeEvt = 'orientationchange' in window ? 'orientationchange' : 'resize',
+                recalc = function () {
+                    var clientWidth = docEl.clientWidth;
+                    if (!clientWidth) return;
+                    docEl.style.fontSize = 100 * (clientWidth / 750) + 'px';
+                };
+        if (!doc.addEventListener) return;
+        win.addEventListener(resizeEvt, recalc, false);
+        doc.addEventListener('DOMContentLoaded', recalc, false);
+    })(document, window);
+    $('.list').click(function () {
+        $(this).addClass('active');
+        $('.list').not(this).removeClass('active')
+    });
+    //layer弹窗
+    function order() {
+        layer.open({
+            title: [
+                '订购',
+                'background-color: #ffd225; color:#1f0200;height:0.6rem;line-height:0.6rem;font-size:0.28rem'
+            ],
+            type:1,
+            style: 'width: 6.9rem'
+            , content: '<div class="layerContent"><div style="margin: 0.26rem auto;text-align: left;width: 4rem;font-size: 0.24rem">30元11GB组合流量包资费：30元/次 <br/>有效期：订购成功立即生效 <br/>当月有效，不结转。 <br/></div><div class="formBox"><div><input type="text" class="tel" placeholder="请输入山东联通手机号"/></div><div class="cl"><input type="text" class="code l" placeholder="请输入验证码"/><input class="obtain l" onclick="obtain()" value="免费获取" type="button"/></div></div><div style="color: #5f5f5f;font-size: 0.24rem">验证码有效期10分钟，请勿重复获取</div><button class="orderBtn">订购</button></div>'
+        });
+    }
+    //获取验证码
+    function obtain(){
+        layer.open({
+            content: '已发送，请注意查收！'
+            ,skin: 'msg'
+            ,time: 2 //2秒后自动关闭
+        });
+        var code = 60;
+        var a = setInterval(function(){
+            if(code>1){
+                code=code-1;
+                $('.obtain').attr('disabled','disabled');
+                $('.obtain').val(code+'秒后重试');
+            }else{
+                clearInterval(a);
+                $('.obtain').removeAttr('disabled');
+                $('.obtain').val('免费获取');
+            }
+
+        },1000)
+
+    }
+</script>
+</body>
+</html>
