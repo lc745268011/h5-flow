@@ -76,14 +76,15 @@
 .frontFlow .illustrate .title{font-size: 0.32rem;color: #f87350;border-bottom:0.04rem solid #f87350;text-align: center;height: 0.64rem;line-height: 0.64rem}
 .frontFlow .illustrate .content{font-size: 0.24rem;padding: 0.3rem}
 .frontFlow .footer{position: fixed;bottom: 0;width: 100%;height: 1.08rem;padding: 0 0.3rem;border-top: 0.02rem solid #d2d2d2;box-sizing: border-box;background: #fff}
-.frontFlow .footer .order,.frontFlow .footer .share{width: 3.36rem;height: 0.74rem;color: #fff;background: #ff7747;font-size: 0.28rem;text-align: center;line-height: 0.7rem;border-radius: 0.08rem;margin-top: 0.14rem;box-sizing: border-box;border: 0.02rem solid #ff7747}
+.frontFlow .footer ul{position: relative;height: 1.08rem}
+.frontFlow .footer .order{left: 0;right: 0;top: 0;bottom: 0;width: 3.36rem;height: 0.74rem;color: #fff;background: #ff7747;font-size: 0.28rem;text-align: center;line-height: 0.7rem;border-radius: 0.08rem;margin: auto;box-sizing: border-box;border: 0.02rem solid #ff7747;position: absolute}
 .frontFlow .footer .share{margin-right: 0.18rem;border:0.02rem solid #bcbcbc;background: #fff;color: #000}
 .frontFlow .layerContent{text-align: center}
-.frontFlow .formBox{width: 5.7rem;margin: 0 auto}
-.frontFlow .formBox>div{width: 5.7rem;height: 0.6rem;margin-bottom: 0.16rem;border-radius: 0.08rem;overflow: hidden}
-.frontFlow .formBox>div input{width: 5.7rem;height: 0.6rem;border: 0;background: #f5f5f5;font-size: 0.24rem;-webkit-appearance:none;outline:none;border-radius: 0}
-.frontFlow .formBox .tel{width: 5.7rem;height: 0.6rem;padding: 0 0.3rem;box-sizing: border-box}
-.frontFlow .formBox .code{width:3.7rem;height: 0.6rem;padding: 0 0.3rem;box-sizing: border-box}
-.frontFlow .formBox .obtain{width:2rem;height: 0.6rem;padding: 0 0.3rem;box-sizing: border-box;color: #fff;background: #71b457;font-size: 0.24rem;border: 0;text-align: center;}
+.frontFlow .formBox{width: 5.4rem;margin: 0 auto}
+.frontFlow .formBox>div{width: 5.4rem;height: 0.6rem;margin-bottom: 0.16rem;border-radius: 0.08rem;overflow: hidden}
+.frontFlow .formBox>div input{width: 5.4rem;height: 0.6rem;border: 0;background: #f5f5f5;font-size: 0.24rem;-webkit-appearance:none;outline:none;border-radius: 0}
+.frontFlow .formBox .tel{width: 5.4rem;height: 0.6rem;padding: 0 0.3rem;box-sizing: border-box}
+.frontFlow .formBox .code{width:3.9rem;height: 0.6rem;padding: 0 0.3rem;box-sizing: border-box}
+.frontFlow .formBox .obtain{width:1.5rem;height: 0.6rem;padding: 0 0.3rem;box-sizing: border-box;color: #fff;background: #71b457;font-size: 0.24rem;border: 0;text-align: center;}
 .frontFlow .orderBtn{width:1.2rem ;height: 0.5rem;line-height: 0.5rem;font-size: 0.24rem;color: #fff;border: 0;background: #e94d40;border-radius: 0.3rem;margin-top: 0.16rem}
 .frontFlow .layui-m-layer1 .layui-m-layercont{padding: 0.3rem;padding-top: 0}
