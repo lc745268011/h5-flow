@@ -75,10 +75,11 @@
 .frontFlow .warning .content{width: 6.45rem;left: 0.74rem;font-size: 0.24rem;color: #fff}
 .frontFlow .illustrate .title{font-size: 0.32rem;color: #f87350;border-bottom:0.04rem solid #f87350;text-align: center;height: 0.64rem;line-height: 0.64rem}
 .frontFlow .illustrate .content{font-size: 0.24rem;padding: 0.3rem}
-.frontFlow .footer{position: fixed;bottom: 0;width: 100%;height: 1.08rem;padding: 0 0.3rem;border-top: 0.02rem solid #d2d2d2;box-sizing: border-box;background: #fff}
+.frontFlow .footer{position: fixed;bottom: 0;width: 100%;height: 1.08rem;border-top: 0.02rem solid #d2d2d2;box-sizing: border-box;background: #fff}
 .frontFlow .footer ul{position: relative;height: 1.08rem}
-.frontFlow .footer .order{left: 0;right: 0;top: 0;bottom: 0;width: 3.36rem;height: 0.74rem;color: #fff;background: #ff7747;font-size: 0.28rem;text-align: center;line-height: 0.7rem;border-radius: 0.08rem;margin: auto;box-sizing: border-box;border: 0.02rem solid #ff7747;position: absolute}
-.frontFlow .footer .share{margin-right: 0.18rem;border:0.02rem solid #bcbcbc;background: #fff;color: #000}
+.frontFlow .footer .kefu{width: 2.14rem;height: 1.08rem;font-size: 0.24rem;text-align: center;display: -webkit-box; display: -moz-box; display: -ms-flexbox;display: -webkit-flex;display: flex;-webkit-box-align: center;-moz-box-align: center;-ms-flex-align: center;-webkit-align-items: center;align-items: center;-webkit-box-pack: center;-moz-box-pack: center;-ms-flex-pack: center;-webkit-justify-content: center;justify-content: center;}
+.frontFlow .footer .kefu img{width: 0.42rem;}
+.frontFlow .footer .order{right:0;top: 0;bottom: 0;width: 5.36rem;height: 1.08rem;color: #fff;background: #ff7747;font-size: 0.28rem;text-align: center;line-height: 1.08rem;margin: auto;box-sizing: border-box;border: 0.02rem solid #ff7747;position: absolute}
 .frontFlow .layerContent{text-align: center}
 .frontFlow .formBox{width: 5.4rem;margin: 0 auto}
 .frontFlow .formBox>div{width: 5.4rem;height: 0.6rem;margin-bottom: 0.16rem;border-radius: 0.08rem;overflow: hidden}
@@ -88,3 +89,7 @@
 .frontFlow .formBox .obtain{width:1.5rem;height: 0.6rem;padding: 0;box-sizing: border-box;color: #fff;background: #71b457;font-size: 0.24rem;border: 0;text-align: center;}
 .frontFlow .orderBtn{width:1.2rem ;height: 0.5rem;line-height: 0.5rem;font-size: 0.24rem;color: #fff;border: 0;background: #e94d40;border-radius: 0.3rem;margin-top: 0.16rem}
 .frontFlow .layui-m-layer1 .layui-m-layercont{padding: 0.3rem;padding-top: 0}
+.broadband #footer{position: fixed;bottom: 0;width: 100%;height: 1rem;text-align: center;line-height: 1rem;background: #fff;border-top: 1px solid #dcdcdc}
+.broadband #footer img{width: 0.42rem}
+.broadband #footer a{color: #333;font-size: 0.28rem}
+.broadband #footer a span{margin-left: 0.2rem}
